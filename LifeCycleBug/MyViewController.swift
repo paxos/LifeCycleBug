@@ -9,10 +9,10 @@ import Cocoa
 
 class MyViewController: NSViewController {
     override func viewDidAppear() {
-        print("viewDidAppear")
+        NSLog("viewDidAppear")
     }
 
     override func viewDidDisappear() {
-        print("viewDidDisappear")
+        NSLog("viewDidDisappear")
     }
 }
